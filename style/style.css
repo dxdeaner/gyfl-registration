@@ -1,0 +1,233 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #435165;
+	color: #BEBEBE;
+	font-size: 18px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+hr {
+    border-color: #fff;
+}
+
+.drkgrey {
+  color: #444;
+}
+
+.container {
+	padding: 20px;
+}
+
+.register {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.title_caps {
+  text-transform: capitalize;
+}
+
+/**********************************************
+Debugger
+**********************************************/
+.dbgr {
+	color: #BEBEBE;
+	background: #222;
+	border: 1px solid #BEBEBE;
+	border-radius: 4px;
+	font-size: .8rem;
+	box-shadow: 2px 2px 2px #222;
+	margin: 3px;
+	padding: 3px;
+}
+
+.dbgrContainer {
+  position: fixed;
+  bottom: 0;
+	z-index: 1000;
+	width: 600px;
+} 
+.dbgrContainer h1 {
+	font-size: 1rem;
+	font-weight: BEBEBE;
+}
+.dbgrContainer td {
+	color: #BEBEBE;
+}
+.dbgrTable {
+  max-height: 700px;
+  overflow-y: scroll;
+  word-wrap: normal;
+}
+.collapse.width {
+    height: auto;
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease;
+}
+
+
+/**********************************************
+NAVAGATION
+**********************************************/
+.nav {
+    background: #ccc;
+}
+
+.nav-pills {
+	padding: 5px;
+}
+.nav-pills li {
+	margin: 0 5px;
+}
+
+
+
+/**********************************************
+LOGIN
+**********************************************/
+.login {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+.login h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
+}
+
+.login form input[type="password"],
+.login form input[type="text"],
+.login form input[type="email"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.login form input[type="submit"]:hover {
+    background-color: #2868c7;
+    transition: background-color 0.2s;
+}
+
+.league_details {
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #BEBEBE;
+  padding: 8px 4px;
+  width: 100%;
+  color: #333333;
+}
+
+
+/**********************************************
+SIDEBAR
+**********************************************/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
