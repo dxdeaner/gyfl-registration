@@ -13,9 +13,9 @@ $_SESSION['docroot'] = GYFL_DOCROOT;
 //DATABASING
 
 define('GYFL_DBHOST', 'localhost');
-define('GYFL_USER', '');
-define('GYFL_PASS', '');
-define('GYFL_DBNAME', 'sureawmp_gyfl');
+define('GYFL_USER', 'USERNAME');
+define('GYFL_PASS', 'PASSWORD');
+define('GYFL_DBNAME', 'DBNAME');
 
 
 /**
