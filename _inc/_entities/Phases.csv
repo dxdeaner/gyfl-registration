@@ -1,0 +1,4 @@
+id,id_onoff,id_phase,id_parent,dt_created,dt_read,dt_updated,dt_deleted,phase_label
+1,1,,,,,,,active
+2,1,,,,,,,inactive
+3,1,,,,,,,partial

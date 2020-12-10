@@ -1,0 +1,11 @@
+id,id_onoff,id_phase,id_parent,dt_created,dt_read,dt_updated,dt_deleted,user_role
+1,1,1,0,,,,,admin
+2,1,1,0,,,,,developer
+3,1,1,0,,,,,owner
+4,1,1,0,,,,,board
+5,1,1,0,,,,,coach
+6,1,1,0,,,,,referee
+7,1,1,0,,,,,player
+8,1,1,0,,,,,parent/guardian
+9,1,1,0,,,,,volunteer
+10,1,1,0,,,,,Sponsor

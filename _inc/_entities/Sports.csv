@@ -1,0 +1,6 @@
+id,id_onoff,id_phase,id_parent,dt_created,dt_read,dt_updated,dt_deleted,sportlabel
+1,,,,,,,,football
+2,,,,,,,,baseball
+3,,,,,,,,basketball
+4,,,,,,,,soccer
+5,,,,,,,,volleyball

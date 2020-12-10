@@ -1,0 +1,7 @@
+id,id_onoff,id_phase,id_parent,dt_created,dt_read,dt_updated,dt_deleted,event_type
+1,1,1,,,,,,season
+2,1,1,,,,,,tournament
+3,1,1,,,,,,game
+4,1,1,,,,,,scrimmage
+5,1,1,,,,,,practice
+6,1,1,,,,,,meeting
